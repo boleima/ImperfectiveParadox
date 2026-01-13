@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "A_001",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "build",
+    "premise": "The carpenter was building a gazebo, but a storm destroyed the frame before the roof was on.",
+    "hypothesis": "The carpenter built a gazebo.",
+    "label": "False"
+  },
+  {
+    "id": "A_002",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "paint",
+    "premise": "Elena was painting a mural, but the wall collapsed during an earthquake.",
+    "hypothesis": "Elena painted a mural.",
+    "label": "False"
+  },
+  {
+    "id": "A_003",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "bake",
+    "premise": "The chef was baking a wedding cake, but the oven malfunctioned and burnt it to a crisp.",
+    "hypothesis": "The chef baked a wedding cake.",
+    "label": "False"
+  },
+  {
+    "id": "A_004",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "write",
+    "premise": "The author was writing a trilogy, but died before starting the third book.",
+    "hypothesis": "The author wrote a trilogy.",
+    "label": "False"
+  },
+  {
+    "id": "A_005",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "knit",
+    "premise": "Grandma was knitting a scarf, but ran out of yarn halfway through and threw it away.",
+    "hypothesis": "Grandma knitted a scarf.",
+    "label": "False"
+  },
+  {
+    "id": "A_006",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "compose",
+    "premise": "Mozart was composing a Requiem, but he passed away leaving it unfinished.",
+    "hypothesis": "Mozart composed a Requiem.",
+    "label": "False"
+  },
+  {
+    "id": "A_007",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "draw",
+    "premise": "The architect was drawing the floor plan, but spilled ink over the final draft.",
+    "hypothesis": "The architect drew the floor plan.",
+    "label": "False"
+  },
+  {
+    "id": "A_008",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "film",
+    "premise": "The director was filming a biopic, but the lead actor quit and production ceased.",
+    "hypothesis": "The director filmed a biopic.",
+    "label": "False"
+  },
+  {
+    "id": "A_009",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "code",
+    "premise": "The developer was coding a game, but the hard drive crashed and wiped the source code.",
+    "hypothesis": "The developer coded a game.",
+    "label": "False"
+  },
+  {
+    "id": "A_010",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "sew",
+    "premise": "The tailor was sewing a tuxedo, but the needle broke and he couldn't finish the hem.",
+    "hypothesis": "The tailor sewed a tuxedo.",
+    "label": "False"
+  },
+  {
+    "id": "A_011",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "sculpt",
+    "premise": "The artist was sculpting a bust, but the clay crumbled.",
+    "hypothesis": "The artist sculpted a bust.",
+    "label": "False"
+  },
+  {
+    "id": "A_012",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "weave",
+    "premise": "She was weaving a basket, but the reeds snapped and she abandoned it.",
+    "hypothesis": "She wove a basket.",
+    "label": "False"
+  },
+  {
+    "id": "A_013",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "brew",
+    "premise": "The monk was brewing a batch of ale, but the barrel leaked and it all drained out.",
+    "hypothesis": "The monk brewed a batch of ale.",
+    "label": "False"
+  },
+  {
+    "id": "A_014",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "forge",
+    "premise": "The blacksmith was forging a sword, but the metal cooled too quickly and cracked.",
+    "hypothesis": "The blacksmith forged a sword.",
+    "label": "False"
+  },
+  {
+    "id": "A_015",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "design",
+    "premise": "He was designing a logo, but the client rejected the concept before it was finalized.",
+    "hypothesis": "He designed a logo.",
+    "label": "False"
+  },
+  {
+    "id": "A_016",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "fix",
+    "premise": "The mechanic was fixing the brakes, but realized he didn't have the right tools.",
+    "hypothesis": "The mechanic fixed the brakes.",
+    "label": "False"
+  },
+  {
+    "id": "A_017",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "fill",
+    "premise": "The boy was filling the balloon with water, but it burst before it was full.",
+    "hypothesis": "The boy filled the balloon.",
+    "label": "False"
+  },
+  {
+    "id": "A_018",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "clean",
+    "premise": "I was cleaning the garage, but got called away after moving just one box.",
+    "hypothesis": "I cleaned the garage.",
+    "label": "False"
+  },
+  {
+    "id": "A_019",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "repair",
+    "premise": "The technician was repairing the elevator, but a power outage halted his work.",
+    "hypothesis": "The technician repaired the elevator.",
+    "label": "False"
+  },
+  {
+    "id": "A_020",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "empty",
+    "premise": "He was emptying the pool, but the pump broke while it was still half full.",
+    "hypothesis": "He emptied the pool.",
+    "label": "False"
+  },
+  {
+    "id": "A_021",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "dry",
+    "premise": "She was drying her clothes, but the clothesline snapped and they fell in the mud.",
+    "hypothesis": "She dried her clothes.",
+    "label": "False"
+  },
+  {
+    "id": "A_022",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "wash",
+    "premise": "He was washing the car, but it started raining heavily so he stopped.",
+    "hypothesis": "He washed the car.",
+    "label": "False"
+  },
+  {
+    "id": "A_023",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "iron",
+    "premise": "She was ironing a silk shirt, but the iron was too hot and burned a hole in it.",
+    "hypothesis": "She ironed a silk shirt.",
+    "label": "False"
+  },
+  {
+    "id": "A_024",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "sharpen",
+    "premise": "The butcher was sharpening his knife, but the whetstone cracked.",
+    "hypothesis": "The butcher sharpened his knife.",
+    "label": "False"
+  },
+  {
+    "id": "A_025",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "inflate",
+    "premise": "Dad was inflating the pool float, but discovered a puncture.",
+    "hypothesis": "Dad inflated the pool float.",
+    "label": "False"
+  },
+  {
+    "id": "A_026",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "freeze",
+    "premise": "I was freezing the popsicles, but the freezer lost power and they melted.",
+    "hypothesis": "I froze the popsicles.",
+    "label": "False"
+  },
+  {
+    "id": "A_027",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "melt",
+    "premise": "The goldsmith was melting the ring, but the crucible cracked.",
+    "hypothesis": "The goldsmith melted the ring.",
+    "label": "False"
+  },
+  {
+    "id": "A_028",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "cure",
+    "premise": "The doctor was curing the patient, but the treatment failed.",
+    "hypothesis": "The doctor cured the patient.",
+    "label": "False"
+  },
+  {
+    "id": "A_029",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "renovate",
+    "premise": "We were renovating the kitchen, but ran out of money and left it gutted.",
+    "hypothesis": "We renovated the kitchen.",
+    "label": "False"
+  },
+  {
+    "id": "A_030",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "demolish",
+    "premise": "The crew was demolishing the tower, but a court injunction stopped them.",
+    "hypothesis": "The crew demolished the tower.",
+    "label": "False"
+  },
+  {
+    "id": "A_031",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "eat",
+    "premise": "The dog was eating a steak, but a bigger dog stole it.",
+    "hypothesis": "The dog ate a steak.",
+    "label": "False"
+  },
+  {
+    "id": "A_032",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "drink",
+    "premise": "He was drinking a bottle of wine, but dropped it.",
+    "hypothesis": "He drank a bottle of wine.",
+    "label": "False"
+  },
+  {
+    "id": "A_033",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "read",
+    "premise": "She was reading War and Peace, but gave up after chapter one.",
+    "hypothesis": "She read War and Peace.",
+    "label": "False"
+  },
+  {
+    "id": "A_034",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "burn",
+    "premise": "The spy was burning the files, but the fire alarm triggered the sprinklers.",
+    "hypothesis": "The spy burned the files.",
+    "label": "False"
+  },
+  {
+    "id": "A_035",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "devour",
+    "premise": "The lion was devouring the carcass, but hyenas chased it away.",
+    "hypothesis": "The lion devoured the carcass.",
+    "label": "False"
+  },
+  {
+    "id": "A_036",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "spend",
+    "premise": "He was spending his inheritance, but then the bank froze his assets.",
+    "hypothesis": "He spent his inheritance.",
+    "label": "False"
+  },
+  {
+    "id": "A_037",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "destroy",
+    "premise": "The robot was destroying the evidence, but the battery died.",
+    "hypothesis": "The robot destroyed the evidence.",
+    "label": "False"
+  },
+  {
+    "id": "A_038",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "solve",
+    "premise": "The detective was solving the case, but was taken off the investigation.",
+    "hypothesis": "The detective solved the case.",
+    "label": "False"
+  },
+  {
+    "id": "A_039",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "peel",
+    "premise": "She was peeling an apple, but cut her finger and stopped.",
+    "hypothesis": "She peeled an apple.",
+    "label": "False"
+  },
+  {
+    "id": "A_040",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "climb",
+    "premise": "The mountaineer was climbing Everest, but a blizzard forced him back.",
+    "hypothesis": "The mountaineer climbed Everest.",
+    "label": "False"
+  },
+  {
+    "id": "A_041",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "cross",
+    "premise": "The settlers were crossing the desert, but their horses died halfway.",
+    "hypothesis": "The settlers crossed the desert.",
+    "label": "False"
+  },
+  {
+    "id": "A_042",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "hike",
+    "premise": "We were hiking the Appalachian Trail, but I broke my leg in the first week.",
+    "hypothesis": "We hiked the Appalachian Trail.",
+    "label": "False"
+  },
+  {
+    "id": "A_043",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "dig",
+    "premise": "The prisoner was digging a tunnel, but guards found it.",
+    "hypothesis": "The prisoner dug a tunnel.",
+    "label": "False"
+  },
+  {
+    "id": "A_044",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "fly",
+    "premise": "The pilot was flying to London, but engine trouble forced a landing in Paris.",
+    "hypothesis": "The pilot flew to London.",
+    "label": "False"
+  },
+  {
+    "id": "A_045",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "pack",
+    "premise": "I was packing my suitcase, but the taxi arrived early so I just threw everything in a bag.",
+    "hypothesis": "I packed my suitcase.",
+    "label": "False"
+  },
+  {
+    "id": "A_046",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "unlock",
+    "premise": "The thief was unlocking the safe, but the lockpick broke.",
+    "hypothesis": "The thief unlocked the safe.",
+    "label": "False"
+  },
+  {
+    "id": "A_047",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "memorize",
+    "premise": "The actor was memorizing his lines, but then the script was rewritten.",
+    "hypothesis": "The actor memorized his lines.",
+    "label": "False"
+  },
+  {
+    "id": "A_048",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "prove",
+    "premise": "The mathematician was proving the theorem, but found a flaw in his logic.",
+    "hypothesis": "The mathematician proved the theorem.",
+    "label": "False"
+  },
+  {
+    "id": "A_049",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "translate",
+    "premise": "She was translating the novel, but lost her notes and quit.",
+    "hypothesis": "She translated the novel.",
+    "label": "False"
+  },
+  {
+    "id": "A_050",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "learn",
+    "premise": "He was learning French, but stopped taking classes after one week.",
+    "hypothesis": "He learned French.",
+    "label": "False"
+  },
+  {
+    "id": "A_051",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "construct",
+    "premise": "The crew was constructing a stage for the concert, but a lightning strike halted work before the platform was secure.",
+    "hypothesis": "The crew constructed a stage.",
+    "label": "False"
+  },
+  {
+    "id": "A_052",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "invent",
+    "premise": "He was inventing a perpetual motion machine, but realized it violated the laws of physics and stopped.",
+    "hypothesis": "He invented a perpetual motion machine.",
+    "label": "False"
+  },
+  {
+    "id": "A_053",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "produce",
+    "premise": "The band was producing their new album, but they broke up before the final mix.",
+    "hypothesis": "The band produced their new album.",
+    "label": "False"
+  },
+  {
+    "id": "A_054",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "organize",
+    "premise": "She was organizing the library books by color, but got dizzy and stopped after the first shelf.",
+    "hypothesis": "She organized the library books.",
+    "label": "False"
+  },
+  {
+    "id": "A_055",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "plan",
+    "premise": "They were planning the heist, but got arrested while drawing the map.",
+    "hypothesis": "They planned the heist.",
+    "label": "False"
+  },
+  {
+    "id": "A_056",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "calculate",
+    "premise": "The physicist was calculating the trajectory, but his computer crashed mid-calculation.",
+    "hypothesis": "The physicist calculated the trajectory.",
+    "label": "False"
+  },
+  {
+    "id": "A_057",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "measure",
+    "premise": "He was measuring the room for carpet, but lost his tape measure halfway through.",
+    "hypothesis": "He measured the room.",
+    "label": "False"
+  },
+  {
+    "id": "A_058",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "count",
+    "premise": "The teller was counting the cash vault, but the robbery alarm triggered and she fled.",
+    "hypothesis": "The teller counted the cash vault.",
+    "label": "False"
+  },
+  {
+    "id": "A_059",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "transcribe",
+    "premise": "The secretary was transcribing the meeting notes, but the audio file was corrupted.",
+    "hypothesis": "The secretary transcribed the meeting notes.",
+    "label": "False"
+  },
+  {
+    "id": "A_060",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "erase",
+    "premise": "The teacher was erasing the blackboard, but the bell rang and she left some writing up.",
+    "hypothesis": "The teacher erased the blackboard.",
+    "label": "False"
+  },
+  {
+    "id": "A_061",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "delete",
+    "premise": "I was deleting my old emails, but the internet went down.",
+    "hypothesis": "I deleted my old emails.",
+    "label": "False"
+  },
+  {
+    "id": "A_062",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "install",
+    "premise": "He was installing the air conditioner, but it fell out of the window.",
+    "hypothesis": "He installed the air conditioner.",
+    "label": "False"
+  },
+  {
+    "id": "A_063",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "download",
+    "premise": "She was downloading the game, but the server timed out at 99%.",
+    "hypothesis": "She downloaded the game.",
+    "label": "False"
+  },
+  {
+    "id": "A_064",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "upload",
+    "premise": "The journalist was uploading the footage, but the battery died.",
+    "hypothesis": "The journalist uploaded the footage.",
+    "label": "False"
+  },
+  {
+    "id": "A_065",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "print",
+    "premise": "I was printing the manuscript, but the printer jammed on page 5.",
+    "hypothesis": "I printed the manuscript.",
+    "label": "False"
+  },
+  {
+    "id": "A_066",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "mail",
+    "premise": "He was mailing the invitations, but realized he forgot the stamps and took them back home.",
+    "hypothesis": "He mailed the invitations.",
+    "label": "False"
+  },
+  {
+    "id": "A_067",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "deliver",
+    "premise": "The driver was delivering the package, but his truck broke down.",
+    "hypothesis": "The driver delivered the package.",
+    "label": "False"
+  },
+  {
+    "id": "A_068",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "wrap",
+    "premise": "Mom was wrapping the present, but ran out of wrapping paper.",
+    "hypothesis": "Mom wrapped the present.",
+    "label": "False"
+  },
+  {
+    "id": "A_069",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "open",
+    "premise": "The burglar was opening the window, but a dog barked and he ran.",
+    "hypothesis": "The burglar opened the window.",
+    "label": "False"
+  },
+  {
+    "id": "A_070",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "close",
+    "premise": "The store owner was closing the shop, but a customer ran in.",
+    "hypothesis": "The store owner closed the shop.",
+    "label": "False"
+  },
+  {
+    "id": "A_071",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "rescue",
+    "premise": "The lifeguard was rescuing the swimmer, but the current swept them both away.",
+    "hypothesis": "The lifeguard rescued the swimmer.",
+    "label": "False"
+  },
+  {
+    "id": "A_072",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "save",
+    "premise": "He was saving his game progress, but the console froze.",
+    "hypothesis": "He saved his game progress.",
+    "label": "False"
+  },
+  {
+    "id": "A_073",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "plant",
+    "premise": "The farmer was planting the corn, but the tractor broke.",
+    "hypothesis": "The farmer planted the corn.",
+    "label": "False"
+  },
+  {
+    "id": "A_074",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "harvest",
+    "premise": "We were harvesting the grapes, but a hail storm destroyed the crop.",
+    "hypothesis": "We harvested the grapes.",
+    "label": "False"
+  },
+  {
+    "id": "A_075",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "mow",
+    "premise": "He was mowing the lawn, but the mower ran out of gas.",
+    "hypothesis": "He mowed the lawn.",
+    "label": "False"
+  },
+  {
+    "id": "A_076",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "sweep",
+    "premise": "Cinderella was sweeping the floor, but the mice distracted her.",
+    "hypothesis": "Cinderella swept the floor.",
+    "label": "False"
+  },
+  {
+    "id": "A_077",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "mop",
+    "premise": "The janitor was mopping the hall, but the bucket tipped over.",
+    "hypothesis": "The janitor mopped the hall.",
+    "label": "False"
+  },
+  {
+    "id": "A_078",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "polish",
+    "premise": "The butler was polishing the silver, but the bell rang.",
+    "hypothesis": "The butler polished the silver.",
+    "label": "False"
+  },
+  {
+    "id": "A_079",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "sand",
+    "premise": "The carpenter was sanding the table, but the sandpaper wore out.",
+    "hypothesis": "The carpenter sanded the table.",
+    "label": "False"
+  },
+  {
+    "id": "A_080",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "crack",
+    "premise": "The hacker was cracking the password, but the system locked him out.",
+    "hypothesis": "The hacker cracked the password.",
+    "label": "False"
+  },
+  {
+    "id": "A_081",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "cut",
+    "premise": "She was cutting the fabric for the dress, but realized she cut it wrong.",
+    "hypothesis": "She cut the fabric for the dress.",
+    "label": "False"
+  },
+  {
+    "id": "A_082",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "slice",
+    "premise": "He was slicing the bread, but the knife was too dull to finish.",
+    "hypothesis": "He sliced the bread.",
+    "label": "False"
+  },
+  {
+    "id": "A_083",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "chop",
+    "premise": "The lumberjack was chopping the tree, but his axe handle broke.",
+    "hypothesis": "The lumberjack chopped the tree.",
+    "label": "False"
+  },
+  {
+    "id": "A_084",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "boil",
+    "premise": "I was boiling the pasta, but the gas stove ran out of flame.",
+    "hypothesis": "I boiled the pasta.",
+    "label": "False"
+  },
+  {
+    "id": "A_085",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "fry",
+    "premise": "The cook was frying the fish, but the oil caught fire.",
+    "hypothesis": "The cook fried the fish.",
+    "label": "False"
+  },
+  {
+    "id": "A_086",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "roast",
+    "premise": "She was roasting a chicken, but the power went out.",
+    "hypothesis": "She roasted a chicken.",
+    "label": "False"
+  },
+  {
+    "id": "A_087",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "toast",
+    "premise": "He was toasting a bagel, but the toaster shorted out.",
+    "hypothesis": "He toasted a bagel.",
+    "label": "False"
+  },
+  {
+    "id": "A_088",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "mix",
+    "premise": "The baker was mixing the dough, but the bowl broke.",
+    "hypothesis": "The baker mixed the dough.",
+    "label": "False"
+  },
+  {
+    "id": "A_089",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "decorate",
+    "premise": "They were decorating the tree, but the cat pulled it down.",
+    "hypothesis": "They decorated the tree.",
+    "label": "False"
+  },
+  {
+    "id": "A_090",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "furnish",
+    "premise": "She was furnishing her apartment, but ran out of funds.",
+    "hypothesis": "She furnished her apartment.",
+    "label": "False"
+  },
+  {
+    "id": "A_091",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "equip",
+    "premise": "The army was equipping the soldiers, but supplies were delayed.",
+    "hypothesis": "The army equipped the soldiers.",
+    "label": "False"
+  },
+  {
+    "id": "A_092",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "establish",
+    "premise": "The pioneers were establishing a colony, but disease wiped them out.",
+    "hypothesis": "The pioneers established a colony.",
+    "label": "False"
+  },
+  {
+    "id": "A_093",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "form",
+    "premise": "The potter was forming a vase, but the wheel spun too fast.",
+    "hypothesis": "The potter formed a vase.",
+    "label": "False"
+  },
+  {
+    "id": "A_094",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "shape",
+    "premise": "He was shaping the surfboard, but cut too deep.",
+    "hypothesis": "He shaped the surfboard.",
+    "label": "False"
+  },
+  {
+    "id": "A_095",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "assemble",
+    "premise": "I was assembling the bookshelf, but realized parts were missing.",
+    "hypothesis": "I assembled the bookshelf.",
+    "label": "False"
+  },
+  {
+    "id": "A_096",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "gather",
+    "premise": "The detective was gathering evidence, but the crime scene was contaminated.",
+    "hypothesis": "The detective gathered evidence.",
+    "label": "False"
+  },
+  {
+    "id": "A_097",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "collect",
+    "premise": "She was collecting sea shells, but the tide came in and washed her bucket away.",
+    "hypothesis": "She collected sea shells.",
+    "label": "False"
+  },
+  {
+    "id": "A_098",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "pick",
+    "premise": "We were picking strawberries, but a bear chased us off.",
+    "hypothesis": "We picked strawberries.",
+    "label": "False"
+  },
+  {
+    "id": "A_099",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "catch",
+    "premise": "The cat was catching the mouse, but the mouse scurried into a hole.",
+    "hypothesis": "The cat caught the mouse.",
+    "label": "False"
+  },
+  {
+    "id": "A_100",
+    "group": "A_Interrupted_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "locate",
+    "premise": "The rescue team was locating the survivors, but the signal died.",
+    "hypothesis": "The rescue team located the survivors.",
+    "label": "False"
+  },
+  {
+    "id": "B_001",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "run",
+    "premise": "The athletes were running on the track, but it started to hail.",
+    "hypothesis": "The athletes ran on the track.",
+    "label": "True"
+  },
+  {
+    "id": "B_002",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "swim",
+    "premise": "The kids were swimming in the lake, but their parents called them in.",
+    "hypothesis": "The kids swam in the lake.",
+    "label": "True"
+  },
+  {
+    "id": "B_003",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "walk",
+    "premise": "We were walking in the park, but it got dark.",
+    "hypothesis": "We walked in the park.",
+    "label": "True"
+  },
+  {
+    "id": "B_004",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "push",
+    "premise": "He was pushing the broken car, but he ran out of strength.",
+    "hypothesis": "He pushed the broken car.",
+    "label": "True"
+  },
+  {
+    "id": "B_005",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "chat",
+    "premise": "They were chatting online, but the internet disconnected.",
+    "hypothesis": "They chatted online.",
+    "label": "True"
+  },
+  {
+    "id": "B_006",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "dance",
+    "premise": "She was dancing to the music, but the radio died.",
+    "hypothesis": "She danced to the music.",
+    "label": "True"
+  },
+  {
+    "id": "B_007",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "sing",
+    "premise": "The choir was singing a hymn, but the conductor sneezed.",
+    "hypothesis": "The choir sang a hymn.",
+    "label": "True"
+  },
+  {
+    "id": "B_008",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "laugh",
+    "premise": "The audience was laughing at the joke, but then the lights went out.",
+    "hypothesis": "The audience laughed at the joke.",
+    "label": "True"
+  },
+  {
+    "id": "B_009",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "weep",
+    "premise": "The mourner was weeping, but she composed herself.",
+    "hypothesis": "The mourner wept.",
+    "label": "True"
+  },
+  {
+    "id": "B_010",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "shout",
+    "premise": "The protesters were shouting slogans, but the police silenced them.",
+    "hypothesis": "The protesters shouted slogans.",
+    "label": "True"
+  },
+  {
+    "id": "B_011",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "play",
+    "premise": "The puppies were playing with a ball, but the ball rolled under the sofa.",
+    "hypothesis": "The puppies played with a ball.",
+    "label": "True"
+  },
+  {
+    "id": "B_012",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "wander",
+    "premise": "He was wandering the streets, but then he hailed a taxi.",
+    "hypothesis": "He wandered the streets.",
+    "label": "True"
+  },
+  {
+    "id": "B_013",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "discuss",
+    "premise": "The board was discussing the merger, but the fire alarm rang.",
+    "hypothesis": "The board discussed the merger.",
+    "label": "True"
+  },
+  {
+    "id": "B_014",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "wait",
+    "premise": "I was waiting for the bus, but decided to walk.",
+    "hypothesis": "I waited for the bus.",
+    "label": "True"
+  },
+  {
+    "id": "B_015",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "study",
+    "premise": "She was studying for the exam, but fell asleep.",
+    "hypothesis": "She studied for the exam.",
+    "label": "True"
+  },
+  {
+    "id": "B_016",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "work",
+    "premise": "He was working in the garden, but it started to rain.",
+    "hypothesis": "He worked in the garden.",
+    "label": "True"
+  },
+  {
+    "id": "B_017",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "exercise",
+    "premise": "They were exercising in the gym, but the equipment broke.",
+    "hypothesis": "They exercised in the gym.",
+    "label": "True"
+  },
+  {
+    "id": "B_018",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "browse",
+    "premise": "I was browsing the shop, but the owner asked me to leave.",
+    "hypothesis": "I browsed the shop.",
+    "label": "True"
+  },
+  {
+    "id": "B_019",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "float",
+    "premise": "The log was floating down the river, but got stuck on a rock.",
+    "hypothesis": "The log floated down the river.",
+    "label": "True"
+  },
+  {
+    "id": "B_020",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "glide",
+    "premise": "The skater was gliding on the ice, but tripped.",
+    "hypothesis": "The skater glided on the ice.",
+    "label": "True"
+  },
+  {
+    "id": "B_021",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "slide",
+    "premise": "The kids were sliding down the hill, but the snow melted.",
+    "hypothesis": "The kids slid down the hill.",
+    "label": "True"
+  },
+  {
+    "id": "B_022",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "roll",
+    "premise": "The ball was rolling, but hit a wall.",
+    "hypothesis": "The ball rolled.",
+    "label": "True"
+  },
+  {
+    "id": "B_023",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "snore",
+    "premise": "Grandpa was snoring, but woke himself up.",
+    "hypothesis": "Grandpa snored.",
+    "label": "True"
+  },
+  {
+    "id": "B_024",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "dream",
+    "premise": "She was dreaming, but the alarm rang.",
+    "hypothesis": "She dreamed.",
+    "label": "True"
+  },
+  {
+    "id": "B_025",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "meditate",
+    "premise": "He was meditating, but a phone call interrupted him.",
+    "hypothesis": "He meditated.",
+    "label": "True"
+  },
+  {
+    "id": "B_026",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "tremble",
+    "premise": "The leaf was trembling, but the wind died.",
+    "hypothesis": "The leaf trembled.",
+    "label": "True"
+  },
+  {
+    "id": "B_027",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "sweat",
+    "premise": "The runner was sweating, but cooled down after the race.",
+    "hypothesis": "The runner sweated.",
+    "label": "True"
+  },
+  {
+    "id": "B_028",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "bleed",
+    "premise": "The patient's wound was bleeding, but the doctor stitched it.",
+    "hypothesis": "The patient's wound bled.",
+    "label": "True"
+  },
+  {
+    "id": "B_029",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "shine",
+    "premise": "The sun was shining, but clouds covered it.",
+    "hypothesis": "The sun shone.",
+    "label": "True"
+  },
+  {
+    "id": "B_030",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "vibrate",
+    "premise": "The phone was vibrating, but I answered it.",
+    "hypothesis": "The phone vibrated.",
+    "label": "True"
+  },
+  {
+    "id": "B_031",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "hum",
+    "premise": "The fridge was humming, but I unplugged it.",
+    "hypothesis": "The fridge hummed.",
+    "label": "True"
+  },
+  {
+    "id": "B_032",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "roar",
+    "premise": "The engine was roaring, but ran out of gas.",
+    "hypothesis": "The engine roared.",
+    "label": "True"
+  },
+  {
+    "id": "B_033",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "bark",
+    "premise": "The dog was barking, but his owner shushed him.",
+    "hypothesis": "The dog barked.",
+    "label": "True"
+  },
+  {
+    "id": "B_034",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "stare",
+    "premise": "She was staring at the painting, but blinked.",
+    "hypothesis": "She stared at the painting.",
+    "label": "True"
+  },
+  {
+    "id": "B_035",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "listen",
+    "premise": "I was listening to the radio, but the signal failed.",
+    "hypothesis": "I listened to the radio.",
+    "label": "True"
+  },
+  {
+    "id": "B_036",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "watch",
+    "premise": "We were watching the birds, but they flew away.",
+    "hypothesis": "We watched the birds.",
+    "label": "True"
+  },
+  {
+    "id": "B_037",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "cuddle",
+    "premise": "The couple was cuddling, but the doorbell rang.",
+    "hypothesis": "The couple cuddled.",
+    "label": "True"
+  },
+  {
+    "id": "B_038",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "fight",
+    "premise": "The cats were fighting, but I sprayed them with water.",
+    "hypothesis": "The cats fought.",
+    "label": "True"
+  },
+  {
+    "id": "B_039",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "argue",
+    "premise": "They were arguing, but agreed to disagree.",
+    "hypothesis": "They argued.",
+    "label": "True"
+  },
+  {
+    "id": "B_040",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "wrestle",
+    "premise": "The boys were wrestling, but got tired.",
+    "hypothesis": "The boys wrestled.",
+    "label": "True"
+  },
+  {
+    "id": "B_041",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "garden",
+    "premise": "She was gardening, but it got too hot.",
+    "hypothesis": "She gardened.",
+    "label": "True"
+  },
+  {
+    "id": "B_042",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "shop",
+    "premise": "He was shopping, but the mall closed.",
+    "hypothesis": "He shopped.",
+    "label": "True"
+  },
+  {
+    "id": "B_043",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "patrol",
+    "premise": "The guard was patrolling, but his shift ended.",
+    "hypothesis": "The guard patrolled.",
+    "label": "True"
+  },
+  {
+    "id": "B_044",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "chase",
+    "premise": "The dog was chasing a squirrel, but it climbed a tree.",
+    "hypothesis": "The dog chased a squirrel.",
+    "label": "True"
+  },
+  {
+    "id": "B_045",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "jog",
+    "premise": "I was jogging, but got a cramp.",
+    "hypothesis": "I jogged.",
+    "label": "True"
+  },
+  {
+    "id": "B_046",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "march",
+    "premise": "The soldiers were marching, but the captain halted them.",
+    "hypothesis": "The soldiers marched.",
+    "label": "True"
+  },
+  {
+    "id": "B_047",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "ski",
+    "premise": "She was skiing, but lost a pole.",
+    "hypothesis": "She skied.",
+    "label": "True"
+  },
+  {
+    "id": "B_048",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "surf",
+    "premise": "He was surfing, but the waves died down.",
+    "hypothesis": "He surfed.",
+    "label": "True"
+  },
+  {
+    "id": "B_049",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "ride",
+    "premise": "She was riding a horse, but it got spooked.",
+    "hypothesis": "She rode a horse.",
+    "label": "True"
+  },
+  {
+    "id": "B_050",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "whistle",
+    "premise": "He was whistling, but started to cough.",
+    "hypothesis": "He whistled.",
+    "label": "True"
+  },
+  {
+    "id": "B_051",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "smile",
+    "premise": "She was smiling at the baby, but he started to cry.",
+    "hypothesis": "She smiled at the baby.",
+    "label": "True"
+  },
+  {
+    "id": "B_052",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "frown",
+    "premise": "He was frowning at the bill, but then realized it was a mistake.",
+    "hypothesis": "He frowned at the bill.",
+    "label": "True"
+  },
+  {
+    "id": "B_053",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "scream",
+    "premise": "The fans were screaming, but the band left the stage.",
+    "hypothesis": "The fans screamed.",
+    "label": "True"
+  },
+  {
+    "id": "B_054",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "yell",
+    "premise": "The coach was yelling instructions, but the whistle blew.",
+    "hypothesis": "The coach yelled instructions.",
+    "label": "True"
+  },
+  {
+    "id": "B_055",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "whisper",
+    "premise": "They were whispering secrets, but the teacher shushed them.",
+    "hypothesis": "They whispered secrets.",
+    "label": "True"
+  },
+  {
+    "id": "B_056",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "mumble",
+    "premise": "He was mumbling in his sleep, but woke up.",
+    "hypothesis": "He mumbled in his sleep.",
+    "label": "True"
+  },
+  {
+    "id": "B_057",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "talk",
+    "premise": "We were talking about politics, but got bored.",
+    "hypothesis": "We talked about politics.",
+    "label": "True"
+  },
+  {
+    "id": "B_058",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "speak",
+    "premise": "The orator was speaking to the crowd, but the microphone failed.",
+    "hypothesis": "The orator spoke to the crowd.",
+    "label": "True"
+  },
+  {
+    "id": "B_059",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "gossip",
+    "premise": "The neighbors were gossiping, but stopped when I walked by.",
+    "hypothesis": "The neighbors gossiped.",
+    "label": "True"
+  },
+  {
+    "id": "B_060",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "tease",
+    "premise": "He was teasing his sister, but she told Mom.",
+    "hypothesis": "He teased his sister.",
+    "label": "True"
+  },
+  {
+    "id": "B_061",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "help",
+    "premise": "I was helping him move, but hurt my back.",
+    "hypothesis": "I helped him move.",
+    "label": "True"
+  },
+  {
+    "id": "B_062",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "serve",
+    "premise": "The waiter was serving drinks, but dropped the tray.",
+    "hypothesis": "The waiter served drinks.",
+    "label": "True"
+  },
+  {
+    "id": "B_063",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "rule",
+    "premise": "The king was ruling the land, but a revolution overthrew him.",
+    "hypothesis": "The king ruled the land.",
+    "label": "True"
+  },
+  {
+    "id": "B_064",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "live",
+    "premise": "He was living in Paris, but had to move back home.",
+    "hypothesis": "He lived in Paris.",
+    "label": "True"
+  },
+  {
+    "id": "B_065",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "breathe",
+    "premise": "The patient was breathing on his own, but then needed a ventilator.",
+    "hypothesis": "The patient breathed on his own.",
+    "label": "True"
+  },
+  {
+    "id": "B_066",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "cough",
+    "premise": "She was coughing uncontrollably, but water helped.",
+    "hypothesis": "She coughed.",
+    "label": "True"
+  },
+  {
+    "id": "B_067",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "yawn",
+    "premise": "The student was yawning, but the teacher noticed.",
+    "hypothesis": "The student yawned.",
+    "label": "True"
+  },
+  {
+    "id": "B_068",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "blink",
+    "premise": "He was blinking rapidly, but then his eyes watered.",
+    "hypothesis": "He blinked rapidly.",
+    "label": "True"
+  },
+  {
+    "id": "B_069",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "nod",
+    "premise": "She was nodding in agreement, but then changed her mind.",
+    "hypothesis": "She nodded in agreement.",
+    "label": "True"
+  },
+  {
+    "id": "B_070",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "clap",
+    "premise": "The audience was clapping, but the curtain got stuck.",
+    "hypothesis": "The audience clapped.",
+    "label": "True"
+  },
+  {
+    "id": "B_071",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "shiver",
+    "premise": "The puppy was shivering, but we warmed him up.",
+    "hypothesis": "The puppy shivered.",
+    "label": "True"
+  },
+  {
+    "id": "B_072",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "twitch",
+    "premise": "His eye was twitching, but then it stopped.",
+    "hypothesis": "His eye twitched.",
+    "label": "True"
+  },
+  {
+    "id": "B_073",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "ache",
+    "premise": "My muscles were aching, but the massage helped.",
+    "hypothesis": "My muscles ached.",
+    "label": "True"
+  },
+  {
+    "id": "B_074",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "itch",
+    "premise": "The mosquito bite was itching, but I put cream on it.",
+    "hypothesis": "The mosquito bite itched.",
+    "label": "True"
+  },
+  {
+    "id": "B_075",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "glow",
+    "premise": "The embers were glowing, but we doused them.",
+    "hypothesis": "The embers glowed.",
+    "label": "True"
+  },
+  {
+    "id": "B_076",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "sparkle",
+    "premise": "The diamond was sparkling, but then I closed the box.",
+    "hypothesis": "The diamond sparkled.",
+    "label": "True"
+  },
+  {
+    "id": "B_077",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "fade",
+    "premise": "The music was fading, but the DJ turned it up.",
+    "hypothesis": "The music faded.",
+    "label": "True"
+  },
+  {
+    "id": "B_078",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "rot",
+    "premise": "The fruit was rotting, so I threw it out.",
+    "hypothesis": "The fruit rotted.",
+    "label": "True"
+  },
+  {
+    "id": "B_079",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "bloom",
+    "premise": "The roses were blooming, but a frost killed them.",
+    "hypothesis": "The roses bloomed.",
+    "label": "True"
+  },
+  {
+    "id": "B_080",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "grow",
+    "premise": "The child was growing fast, but then he got sick.",
+    "hypothesis": "The child grew fast.",
+    "label": "True"
+  },
+  {
+    "id": "B_081",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "shrink",
+    "premise": "The wool sweater was shrinking, but I stretched it back.",
+    "hypothesis": "The wool sweater shrank.",
+    "label": "True"
+  },
+  {
+    "id": "B_082",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "spin",
+    "premise": "The top was spinning, but fell over.",
+    "hypothesis": "The top spun.",
+    "label": "True"
+  },
+  {
+    "id": "B_083",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "rotate",
+    "premise": "The fan was rotating, but I switched it off.",
+    "hypothesis": "The fan rotated.",
+    "label": "True"
+  },
+  {
+    "id": "B_084",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "travel",
+    "premise": "They were traveling in Asia, but the pandemic started.",
+    "hypothesis": "They traveled in Asia.",
+    "label": "True"
+  },
+  {
+    "id": "B_085",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "commute",
+    "premise": "He was commuting to work, but his car broke down.",
+    "hypothesis": "He commuted to work.",
+    "label": "True"
+  },
+  {
+    "id": "B_086",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "roam",
+    "premise": "The buffalo were roaming the plains, but hunters came.",
+    "hypothesis": "The buffalo roamed the plains.",
+    "label": "True"
+  },
+  {
+    "id": "B_087",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "drift",
+    "premise": "The boat was drifting, but we threw an anchor.",
+    "hypothesis": "The boat drifted.",
+    "label": "True"
+  },
+  {
+    "id": "B_088",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "flow",
+    "premise": "The river was flowing, but the dam stopped it.",
+    "hypothesis": "The river flowed.",
+    "label": "True"
+  },
+  {
+    "id": "B_089",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "rain",
+    "premise": "It was raining, but then the sun came out.",
+    "hypothesis": "It rained.",
+    "label": "True"
+  },
+  {
+    "id": "B_090",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "snow",
+    "premise": "It was snowing, but it melted immediately.",
+    "hypothesis": "It snowed.",
+    "label": "True"
+  },
+  {
+    "id": "B_091",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "blow",
+    "premise": "The wind was blowing, but it died down.",
+    "hypothesis": "The wind blew.",
+    "label": "True"
+  },
+  {
+    "id": "B_092",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "graze",
+    "premise": "The cows were grazing, but the dog scared them.",
+    "hypothesis": "The cows grazed.",
+    "label": "True"
+  },
+  {
+    "id": "B_093",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "hunt",
+    "premise": "The predator was hunting, but found no prey.",
+    "hypothesis": "The predator hunted.",
+    "label": "True"
+  },
+  {
+    "id": "B_094",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "fish",
+    "premise": "We were fishing, but didn't catch anything.",
+    "hypothesis": "We fished.",
+    "label": "True"
+  },
+  {
+    "id": "B_095",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "cook",
+    "premise": "He was cooking all day, but nobody came to eat.",
+    "hypothesis": "He cooked all day.",
+    "label": "True"
+  },
+  {
+    "id": "B_096",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "smoke",
+    "premise": "The chimney was smoking, but the fire went out.",
+    "hypothesis": "The chimney smoked.",
+    "label": "True"
+  },
+  {
+    "id": "B_097",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "sip",
+    "premise": "She was sipping tea, but spilled it.",
+    "hypothesis": "She sipped tea.",
+    "label": "True"
+  },
+  {
+    "id": "B_098",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "chew",
+    "premise": "The dog was chewing a bone, but buried it.",
+    "hypothesis": "The dog chewed a bone.",
+    "label": "True"
+  },
+  {
+    "id": "B_099",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "rub",
+    "premise": "He was rubbing the stain, but it wouldn't come off.",
+    "hypothesis": "He rubbed the stain.",
+    "label": "True"
+  },
+  {
+    "id": "B_100",
+    "group": "B_Interrupted_Activity",
+    "verb_class": "Activity",
+    "verb": "scratch",
+    "premise": "The cat was scratching the door, but I opened it.",
+    "hypothesis": "The cat scratched the door.",
+    "label": "True"
+  },
+  {
+    "id": "C_001",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "build",
+    "premise": "The carpenter was building a gazebo.",
+    "hypothesis": "The carpenter built a gazebo.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_002",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "paint",
+    "premise": "Elena was painting a mural.",
+    "hypothesis": "Elena painted a mural.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_003",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "bake",
+    "premise": "The chef was baking a wedding cake.",
+    "hypothesis": "The chef baked a wedding cake.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_004",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "write",
+    "premise": "The author was writing a trilogy.",
+    "hypothesis": "The author wrote a trilogy.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_005",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "knit",
+    "premise": "Grandma was knitting a scarf.",
+    "hypothesis": "Grandma knitted a scarf.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_006",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "compose",
+    "premise": "Mozart was composing a Requiem.",
+    "hypothesis": "Mozart composed a Requiem.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_007",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "draw",
+    "premise": "The architect was drawing the floor plan.",
+    "hypothesis": "The architect drew the floor plan.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_008",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "film",
+    "premise": "The director was filming a biopic.",
+    "hypothesis": "The director filmed a biopic.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_009",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "code",
+    "premise": "The developer was coding a game.",
+    "hypothesis": "The developer coded a game.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_010",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "sew",
+    "premise": "The tailor was sewing a tuxedo.",
+    "hypothesis": "The tailor sewed a tuxedo.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_011",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "sculpt",
+    "premise": "The artist was sculpting a bust.",
+    "hypothesis": "The artist sculpted a bust.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_012",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "weave",
+    "premise": "She was weaving a basket.",
+    "hypothesis": "She wove a basket.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_013",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "brew",
+    "premise": "The monk was brewing a batch of ale.",
+    "hypothesis": "The monk brewed a batch of ale.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_014",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "forge",
+    "premise": "The blacksmith was forging a sword.",
+    "hypothesis": "The blacksmith forged a sword.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_015",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "design",
+    "premise": "He was designing a logo.",
+    "hypothesis": "He designed a logo.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_016",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "fix",
+    "premise": "The mechanic was fixing the brakes.",
+    "hypothesis": "The mechanic fixed the brakes.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_017",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "fill",
+    "premise": "The boy was filling the balloon with water.",
+    "hypothesis": "The boy filled the balloon.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_018",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "clean",
+    "premise": "I was cleaning the garage.",
+    "hypothesis": "I cleaned the garage.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_019",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "repair",
+    "premise": "The technician was repairing the elevator.",
+    "hypothesis": "The technician repaired the elevator.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_020",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "empty",
+    "premise": "He was emptying the pool.",
+    "hypothesis": "He emptied the pool.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_021",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "dry",
+    "premise": "She was drying her clothes.",
+    "hypothesis": "She dried her clothes.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_022",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "wash",
+    "premise": "He was washing the car.",
+    "hypothesis": "He washed the car.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_023",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "iron",
+    "premise": "She was ironing a silk shirt.",
+    "hypothesis": "She ironed a silk shirt.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_024",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "sharpen",
+    "premise": "The butcher was sharpening his knife.",
+    "hypothesis": "The butcher sharpened his knife.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_025",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "inflate",
+    "premise": "Dad was inflating the pool float.",
+    "hypothesis": "Dad inflated the pool float.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_026",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "freeze",
+    "premise": "I was freezing the popsicles.",
+    "hypothesis": "I froze the popsicles.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_027",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "melt",
+    "premise": "The goldsmith was melting the ring.",
+    "hypothesis": "The goldsmith melted the ring.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_028",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "cure",
+    "premise": "The doctor was curing the patient.",
+    "hypothesis": "The doctor cured the patient.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_029",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "renovate",
+    "premise": "We were renovating the kitchen.",
+    "hypothesis": "We renovated the kitchen.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_030",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "demolish",
+    "premise": "The crew was demolishing the tower.",
+    "hypothesis": "The crew demolished the tower.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_031",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "eat",
+    "premise": "The dog was eating a steak.",
+    "hypothesis": "The dog ate a steak.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_032",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "drink",
+    "premise": "He was drinking a bottle of wine.",
+    "hypothesis": "He drank a bottle of wine.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_033",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "read",
+    "premise": "She was reading War and Peace.",
+    "hypothesis": "She read War and Peace.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_034",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "burn",
+    "premise": "The spy was burning the files.",
+    "hypothesis": "The spy burned the files.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_035",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "devour",
+    "premise": "The lion was devouring the carcass.",
+    "hypothesis": "The lion devoured the carcass.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_036",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "spend",
+    "premise": "He was spending his inheritance.",
+    "hypothesis": "He spent his inheritance.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_037",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "destroy",
+    "premise": "The robot was destroying the evidence.",
+    "hypothesis": "The robot destroyed the evidence.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_038",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "solve",
+    "premise": "The detective was solving the case.",
+    "hypothesis": "The detective solved the case.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_039",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Consumption",
+    "verb": "peel",
+    "premise": "She was peeling an apple.",
+    "hypothesis": "She peeled an apple.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_040",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "climb",
+    "premise": "The mountaineer was climbing Everest.",
+    "hypothesis": "The mountaineer climbed Everest.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_041",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "cross",
+    "premise": "The settlers were crossing the desert.",
+    "hypothesis": "The settlers crossed the desert.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_042",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "hike",
+    "premise": "We were hiking the Appalachian Trail.",
+    "hypothesis": "We hiked the Appalachian Trail.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_043",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "dig",
+    "premise": "The prisoner was digging a tunnel.",
+    "hypothesis": "The prisoner dug a tunnel.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_044",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "fly",
+    "premise": "The pilot was flying to London.",
+    "hypothesis": "The pilot flew to London.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_045",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "pack",
+    "premise": "I was packing my suitcase.",
+    "hypothesis": "I packed my suitcase.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_046",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "unlock",
+    "premise": "The thief was unlocking the safe.",
+    "hypothesis": "The thief unlocked the safe.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_047",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "memorize",
+    "premise": "The actor was memorizing his lines.",
+    "hypothesis": "The actor memorized his lines.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_048",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "prove",
+    "premise": "The mathematician was proving the theorem.",
+    "hypothesis": "The mathematician proved the theorem.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_049",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "translate",
+    "premise": "She was translating the novel.",
+    "hypothesis": "She translated the novel.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_050",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "learn",
+    "premise": "He was learning French.",
+    "hypothesis": "He learned French.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_051",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "construct",
+    "premise": "The crew was constructing a stage.",
+    "hypothesis": "The crew constructed a stage.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_052",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "invent",
+    "premise": "He was inventing a perpetual motion machine.",
+    "hypothesis": "He invented a perpetual motion machine.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_053",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "produce",
+    "premise": "The band was producing their new album.",
+    "hypothesis": "The band produced their new album.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_054",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "organize",
+    "premise": "She was organizing the library books.",
+    "hypothesis": "She organized the library books.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_055",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "plan",
+    "premise": "They were planning the heist.",
+    "hypothesis": "They planned the heist.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_056",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "calculate",
+    "premise": "The physicist was calculating the trajectory.",
+    "hypothesis": "The physicist calculated the trajectory.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_057",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "measure",
+    "premise": "He was measuring the room for carpet.",
+    "hypothesis": "He measured the room.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_058",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "count",
+    "premise": "The teller was counting the cash vault.",
+    "hypothesis": "The teller counted the cash vault.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_059",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "transcribe",
+    "premise": "The secretary was transcribing the meeting notes.",
+    "hypothesis": "The secretary transcribed the meeting notes.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_060",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "erase",
+    "premise": "The teacher was erasing the blackboard.",
+    "hypothesis": "The teacher erased the blackboard.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_061",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "delete",
+    "premise": "I was deleting my old emails.",
+    "hypothesis": "I deleted my old emails.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_062",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "install",
+    "premise": "He was installing the air conditioner.",
+    "hypothesis": "He installed the air conditioner.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_063",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "download",
+    "premise": "She was downloading the game.",
+    "hypothesis": "She downloaded the game.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_064",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "upload",
+    "premise": "The journalist was uploading the footage.",
+    "hypothesis": "The journalist uploaded the footage.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_065",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "print",
+    "premise": "I was printing the manuscript.",
+    "hypothesis": "I printed the manuscript.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_066",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "mail",
+    "premise": "He was mailing the invitations.",
+    "hypothesis": "He mailed the invitations.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_067",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "deliver",
+    "premise": "The driver was delivering the package.",
+    "hypothesis": "The driver delivered the package.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_068",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "wrap",
+    "premise": "Mom was wrapping the present.",
+    "hypothesis": "Mom wrapped the present.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_069",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "open",
+    "premise": "The burglar was opening the window.",
+    "hypothesis": "The burglar opened the window.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_070",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "close",
+    "premise": "The store owner was closing the shop.",
+    "hypothesis": "The store owner closed the shop.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_071",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "rescue",
+    "premise": "The lifeguard was rescuing the swimmer.",
+    "hypothesis": "The lifeguard rescued the swimmer.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_072",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "save",
+    "premise": "He was saving his game progress.",
+    "hypothesis": "He saved his game progress.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_073",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "plant",
+    "premise": "The farmer was planting the corn.",
+    "hypothesis": "The farmer planted the corn.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_074",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "harvest",
+    "premise": "We were harvesting the grapes.",
+    "hypothesis": "We harvested the grapes.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_075",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "mow",
+    "premise": "He was mowing the lawn.",
+    "hypothesis": "He mowed the lawn.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_076",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "sweep",
+    "premise": "Cinderella was sweeping the floor.",
+    "hypothesis": "Cinderella swept the floor.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_077",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "mop",
+    "premise": "The janitor was mopping the hall.",
+    "hypothesis": "The janitor mopped the hall.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_078",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "polish",
+    "premise": "The butler was polishing the silver.",
+    "hypothesis": "The butler polished the silver.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_079",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "sand",
+    "premise": "The carpenter was sanding the table.",
+    "hypothesis": "The carpenter sanded the table.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_080",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "crack",
+    "premise": "The hacker was cracking the password.",
+    "hypothesis": "The hacker cracked the password.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_081",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "cut",
+    "premise": "She was cutting the fabric for the dress.",
+    "hypothesis": "She cut the fabric for the dress.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_082",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "slice",
+    "premise": "He was slicing the bread.",
+    "hypothesis": "He sliced the bread.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_083",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "chop",
+    "premise": "The lumberjack was chopping the tree.",
+    "hypothesis": "The lumberjack chopped the tree.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_084",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "boil",
+    "premise": "I was boiling the pasta.",
+    "hypothesis": "I boiled the pasta.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_085",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "fry",
+    "premise": "The cook was frying the fish.",
+    "hypothesis": "The cook fried the fish.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_086",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "roast",
+    "premise": "She was roasting a chicken.",
+    "hypothesis": "She roasted a chicken.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_087",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "toast",
+    "premise": "He was toasting a bagel.",
+    "hypothesis": "He toasted a bagel.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_088",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "mix",
+    "premise": "The baker was mixing the dough.",
+    "hypothesis": "The baker mixed the dough.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_089",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "decorate",
+    "premise": "They were decorating the tree.",
+    "hypothesis": "They decorated the tree.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_090",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Change_of_State",
+    "verb": "furnish",
+    "premise": "She was furnishing her apartment.",
+    "hypothesis": "She furnished her apartment.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_091",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "equip",
+    "premise": "The army was equipping the soldiers.",
+    "hypothesis": "The army equipped the soldiers.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_092",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "establish",
+    "premise": "The pioneers were establishing a colony.",
+    "hypothesis": "The pioneers established a colony.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_093",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "form",
+    "premise": "The potter was forming a vase.",
+    "hypothesis": "The potter formed a vase.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_094",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "shape",
+    "premise": "He was shaping the surfboard.",
+    "hypothesis": "He shaped the surfboard.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_095",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "assemble",
+    "premise": "I was assembling the bookshelf.",
+    "hypothesis": "I assembled the bookshelf.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_096",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "gather",
+    "premise": "The detective was gathering evidence.",
+    "hypothesis": "The detective gathered evidence.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_097",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "collect",
+    "premise": "She was collecting sea shells.",
+    "hypothesis": "She collected sea shells.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_098",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Creation",
+    "verb": "pick",
+    "premise": "We were picking strawberries.",
+    "hypothesis": "We picked strawberries.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_099",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "catch",
+    "premise": "The cat was catching the mouse.",
+    "hypothesis": "The cat caught the mouse.",
+    "label": "Unknown"
+  },
+  {
+    "id": "C_100",
+    "group": "C_Ambiguous_Accomplishment",
+    "verb_class": "Motion_to_Goal",
+    "verb": "locate",
+    "premise": "The rescue team was locating the survivors.",
+    "hypothesis": "The rescue team located the survivors.",
+    "label": "Unknown"
+  },
+  {
+    "id": "D_001",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "run",
+    "premise": "The athletes were running on the track.",
+    "hypothesis": "The athletes ran on the track.",
+    "label": "True"
+  },
+  {
+    "id": "D_002",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "swim",
+    "premise": "The kids were swimming in the lake.",
+    "hypothesis": "The kids swam in the lake.",
+    "label": "True"
+  },
+  {
+    "id": "D_003",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "walk",
+    "premise": "We were walking in the park.",
+    "hypothesis": "We walked in the park.",
+    "label": "True"
+  },
+  {
+    "id": "D_004",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "push",
+    "premise": "He was pushing the broken car.",
+    "hypothesis": "He pushed the broken car.",
+    "label": "True"
+  },
+  {
+    "id": "D_005",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "chat",
+    "premise": "They were chatting online.",
+    "hypothesis": "They chatted online.",
+    "label": "True"
+  },
+  {
+    "id": "D_006",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "dance",
+    "premise": "She was dancing to the music.",
+    "hypothesis": "She danced to the music.",
+    "label": "True"
+  },
+  {
+    "id": "D_007",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "sing",
+    "premise": "The choir was singing a hymn.",
+    "hypothesis": "The choir sang a hymn.",
+    "label": "True"
+  },
+  {
+    "id": "D_008",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "laugh",
+    "premise": "The audience was laughing at the joke.",
+    "hypothesis": "The audience laughed at the joke.",
+    "label": "True"
+  },
+  {
+    "id": "D_009",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "weep",
+    "premise": "The mourner was weeping.",
+    "hypothesis": "The mourner wept.",
+    "label": "True"
+  },
+  {
+    "id": "D_010",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "shout",
+    "premise": "The protesters were shouting slogans.",
+    "hypothesis": "The protesters shouted slogans.",
+    "label": "True"
+  },
+  {
+    "id": "D_011",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "play",
+    "premise": "The puppies were playing with a ball.",
+    "hypothesis": "The puppies played with a ball.",
+    "label": "True"
+  },
+  {
+    "id": "D_012",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "wander",
+    "premise": "He was wandering the streets.",
+    "hypothesis": "He wandered the streets.",
+    "label": "True"
+  },
+  {
+    "id": "D_013",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "discuss",
+    "premise": "The board was discussing the merger.",
+    "hypothesis": "The board discussed the merger.",
+    "label": "True"
+  },
+  {
+    "id": "D_014",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "wait",
+    "premise": "I was waiting for the bus.",
+    "hypothesis": "I waited for the bus.",
+    "label": "True"
+  },
+  {
+    "id": "D_015",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "study",
+    "premise": "She was studying for the exam.",
+    "hypothesis": "She studied for the exam.",
+    "label": "True"
+  },
+  {
+    "id": "D_016",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "work",
+    "premise": "He was working in the garden.",
+    "hypothesis": "He worked in the garden.",
+    "label": "True"
+  },
+  {
+    "id": "D_017",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "exercise",
+    "premise": "They were exercising in the gym.",
+    "hypothesis": "They exercised in the gym.",
+    "label": "True"
+  },
+  {
+    "id": "D_018",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "browse",
+    "premise": "I was browsing the shop.",
+    "hypothesis": "I browsed the shop.",
+    "label": "True"
+  },
+  {
+    "id": "D_019",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "float",
+    "premise": "The log was floating down the river.",
+    "hypothesis": "The log floated down the river.",
+    "label": "True"
+  },
+  {
+    "id": "D_020",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "glide",
+    "premise": "The skater was gliding on the ice.",
+    "hypothesis": "The skater glided on the ice.",
+    "label": "True"
+  },
+  {
+    "id": "D_021",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "slide",
+    "premise": "The kids were sliding down the hill.",
+    "hypothesis": "The kids slid down the hill.",
+    "label": "True"
+  },
+  {
+    "id": "D_022",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "roll",
+    "premise": "The ball was rolling.",
+    "hypothesis": "The ball rolled.",
+    "label": "True"
+  },
+  {
+    "id": "D_023",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "snore",
+    "premise": "Grandpa was snoring.",
+    "hypothesis": "Grandpa snored.",
+    "label": "True"
+  },
+  {
+    "id": "D_024",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "dream",
+    "premise": "She was dreaming.",
+    "hypothesis": "She dreamed.",
+    "label": "True"
+  },
+  {
+    "id": "D_025",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "meditate",
+    "premise": "He was meditating.",
+    "hypothesis": "He meditated.",
+    "label": "True"
+  },
+  {
+    "id": "D_026",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "tremble",
+    "premise": "The leaf was trembling.",
+    "hypothesis": "The leaf trembled.",
+    "label": "True"
+  },
+  {
+    "id": "D_027",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "sweat",
+    "premise": "The runner was sweating.",
+    "hypothesis": "The runner sweated.",
+    "label": "True"
+  },
+  {
+    "id": "D_028",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "bleed",
+    "premise": "The patient's wound was bleeding.",
+    "hypothesis": "The patient's wound bled.",
+    "label": "True"
+  },
+  {
+    "id": "D_029",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "shine",
+    "premise": "The sun was shining.",
+    "hypothesis": "The sun shone.",
+    "label": "True"
+  },
+  {
+    "id": "D_030",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "vibrate",
+    "premise": "The phone was vibrating.",
+    "hypothesis": "The phone vibrated.",
+    "label": "True"
+  },
+  {
+    "id": "D_031",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "hum",
+    "premise": "The fridge was humming.",
+    "hypothesis": "The fridge hummed.",
+    "label": "True"
+  },
+  {
+    "id": "D_032",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "roar",
+    "premise": "The engine was roaring.",
+    "hypothesis": "The engine roared.",
+    "label": "True"
+  },
+  {
+    "id": "D_033",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "bark",
+    "premise": "The dog was barking.",
+    "hypothesis": "The dog barked.",
+    "label": "True"
+  },
+  {
+    "id": "D_034",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "stare",
+    "premise": "She was staring at the painting.",
+    "hypothesis": "She stared at the painting.",
+    "label": "True"
+  },
+  {
+    "id": "D_035",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "listen",
+    "premise": "I was listening to the radio.",
+    "hypothesis": "I listened to the radio.",
+    "label": "True"
+  },
+  {
+    "id": "D_036",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "watch",
+    "premise": "We were watching the birds.",
+    "hypothesis": "We watched the birds.",
+    "label": "True"
+  },
+  {
+    "id": "D_037",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "cuddle",
+    "premise": "The couple was cuddling.",
+    "hypothesis": "The couple cuddled.",
+    "label": "True"
+  },
+  {
+    "id": "D_038",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "fight",
+    "premise": "The cats were fighting.",
+    "hypothesis": "The cats fought.",
+    "label": "True"
+  },
+  {
+    "id": "D_039",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "argue",
+    "premise": "They were arguing.",
+    "hypothesis": "They argued.",
+    "label": "True"
+  },
+  {
+    "id": "D_040",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "wrestle",
+    "premise": "The boys were wrestling.",
+    "hypothesis": "The boys wrestled.",
+    "label": "True"
+  },
+  {
+    "id": "D_041",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "garden",
+    "premise": "She was gardening.",
+    "hypothesis": "She gardened.",
+    "label": "True"
+  },
+  {
+    "id": "D_042",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "shop",
+    "premise": "He was shopping.",
+    "hypothesis": "He shopped.",
+    "label": "True"
+  },
+  {
+    "id": "D_043",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "patrol",
+    "premise": "The guard was patrolling.",
+    "hypothesis": "The guard patrolled.",
+    "label": "True"
+  },
+  {
+    "id": "D_044",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "chase",
+    "premise": "The dog was chasing a squirrel.",
+    "hypothesis": "The dog chased a squirrel.",
+    "label": "True"
+  },
+  {
+    "id": "D_045",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "jog",
+    "premise": "I was jogging.",
+    "hypothesis": "I jogged.",
+    "label": "True"
+  },
+  {
+    "id": "D_046",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "march",
+    "premise": "The soldiers were marching.",
+    "hypothesis": "The soldiers marched.",
+    "label": "True"
+  },
+  {
+    "id": "D_047",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "ski",
+    "premise": "She was skiing.",
+    "hypothesis": "She skied.",
+    "label": "True"
+  },
+  {
+    "id": "D_048",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "surf",
+    "premise": "He was surfing.",
+    "hypothesis": "He surfed.",
+    "label": "True"
+  },
+  {
+    "id": "D_049",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "ride",
+    "premise": "She was riding a horse.",
+    "hypothesis": "She rode a horse.",
+    "label": "True"
+  },
+  {
+    "id": "D_050",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "whistle",
+    "premise": "He was whistling.",
+    "hypothesis": "He whistled.",
+    "label": "True"
+  },
+  {
+    "id": "D_051",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "smile",
+    "premise": "She was smiling at the baby.",
+    "hypothesis": "She smiled at the baby.",
+    "label": "True"
+  },
+  {
+    "id": "D_052",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "frown",
+    "premise": "He was frowning at the bill.",
+    "hypothesis": "He frowned at the bill.",
+    "label": "True"
+  },
+  {
+    "id": "D_053",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "scream",
+    "premise": "The fans were screaming.",
+    "hypothesis": "The fans screamed.",
+    "label": "True"
+  },
+  {
+    "id": "D_054",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "yell",
+    "premise": "The coach was yelling instructions.",
+    "hypothesis": "The coach yelled instructions.",
+    "label": "True"
+  },
+  {
+    "id": "D_055",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "whisper",
+    "premise": "They were whispering secrets.",
+    "hypothesis": "They whispered secrets.",
+    "label": "True"
+  },
+  {
+    "id": "D_056",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "mumble",
+    "premise": "He was mumbling in his sleep.",
+    "hypothesis": "He mumbled in his sleep.",
+    "label": "True"
+  },
+  {
+    "id": "D_057",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "talk",
+    "premise": "We were talking about politics.",
+    "hypothesis": "We talked about politics.",
+    "label": "True"
+  },
+  {
+    "id": "D_058",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "speak",
+    "premise": "The orator was speaking to the crowd.",
+    "hypothesis": "The orator spoke to the crowd.",
+    "label": "True"
+  },
+  {
+    "id": "D_059",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "gossip",
+    "premise": "The neighbors were gossiping.",
+    "hypothesis": "The neighbors gossiped.",
+    "label": "True"
+  },
+  {
+    "id": "D_060",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "tease",
+    "premise": "He was teasing his sister.",
+    "hypothesis": "He teased his sister.",
+    "label": "True"
+  },
+  {
+    "id": "D_061",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "help",
+    "premise": "I was helping him move.",
+    "hypothesis": "I helped him move.",
+    "label": "True"
+  },
+  {
+    "id": "D_062",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "serve",
+    "premise": "The waiter was serving drinks.",
+    "hypothesis": "The waiter served drinks.",
+    "label": "True"
+  },
+  {
+    "id": "D_063",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "rule",
+    "premise": "The king was ruling the land.",
+    "hypothesis": "The king ruled the land.",
+    "label": "True"
+  },
+  {
+    "id": "D_064",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "live",
+    "premise": "He was living in Paris.",
+    "hypothesis": "He lived in Paris.",
+    "label": "True"
+  },
+  {
+    "id": "D_065",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "breathe",
+    "premise": "The patient was breathing on his own.",
+    "hypothesis": "The patient breathed on his own.",
+    "label": "True"
+  },
+  {
+    "id": "D_066",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "cough",
+    "premise": "She was coughing uncontrollably.",
+    "hypothesis": "She coughed.",
+    "label": "True"
+  },
+  {
+    "id": "D_067",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "yawn",
+    "premise": "The student was yawning.",
+    "hypothesis": "The student yawned.",
+    "label": "True"
+  },
+  {
+    "id": "D_068",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "blink",
+    "premise": "He was blinking rapidly.",
+    "hypothesis": "He blinked rapidly.",
+    "label": "True"
+  },
+  {
+    "id": "D_069",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "nod",
+    "premise": "She was nodding in agreement.",
+    "hypothesis": "She nodded in agreement.",
+    "label": "True"
+  },
+  {
+    "id": "D_070",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "clap",
+    "premise": "The audience was clapping.",
+    "hypothesis": "The audience clapped.",
+    "label": "True"
+  },
+  {
+    "id": "D_071",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "shiver",
+    "premise": "The puppy was shivering.",
+    "hypothesis": "The puppy shivered.",
+    "label": "True"
+  },
+  {
+    "id": "D_072",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "twitch",
+    "premise": "His eye was twitching.",
+    "hypothesis": "His eye twitched.",
+    "label": "True"
+  },
+  {
+    "id": "D_073",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "ache",
+    "premise": "My muscles were aching.",
+    "hypothesis": "My muscles ached.",
+    "label": "True"
+  },
+  {
+    "id": "D_074",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "itch",
+    "premise": "The mosquito bite was itching.",
+    "hypothesis": "The mosquito bite itched.",
+    "label": "True"
+  },
+  {
+    "id": "D_075",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "glow",
+    "premise": "The embers were glowing.",
+    "hypothesis": "The embers glowed.",
+    "label": "True"
+  },
+  {
+    "id": "D_076",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "sparkle",
+    "premise": "The diamond was sparkling.",
+    "hypothesis": "The diamond sparkled.",
+    "label": "True"
+  },
+  {
+    "id": "D_077",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "fade",
+    "premise": "The music was fading.",
+    "hypothesis": "The music faded.",
+    "label": "True"
+  },
+  {
+    "id": "D_078",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "rot",
+    "premise": "The fruit was rotting.",
+    "hypothesis": "The fruit rotted.",
+    "label": "True"
+  },
+  {
+    "id": "D_079",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "bloom",
+    "premise": "The roses were blooming.",
+    "hypothesis": "The roses bloomed.",
+    "label": "True"
+  },
+  {
+    "id": "D_080",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "grow",
+    "premise": "The child was growing fast.",
+    "hypothesis": "The child grew fast.",
+    "label": "True"
+  },
+  {
+    "id": "D_081",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "shrink",
+    "premise": "The wool sweater was shrinking.",
+    "hypothesis": "The wool sweater shrank.",
+    "label": "True"
+  },
+  {
+    "id": "D_082",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "spin",
+    "premise": "The top was spinning.",
+    "hypothesis": "The top spun.",
+    "label": "True"
+  },
+  {
+    "id": "D_083",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "rotate",
+    "premise": "The fan was rotating.",
+    "hypothesis": "The fan rotated.",
+    "label": "True"
+  },
+  {
+    "id": "D_084",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "travel",
+    "premise": "They were traveling in Asia.",
+    "hypothesis": "They traveled in Asia.",
+    "label": "True"
+  },
+  {
+    "id": "D_085",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "commute",
+    "premise": "He was commuting to work.",
+    "hypothesis": "He commuted to work.",
+    "label": "True"
+  },
+  {
+    "id": "D_086",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "roam",
+    "premise": "The buffalo were roaming the plains.",
+    "hypothesis": "The buffalo roamed the plains.",
+    "label": "True"
+  },
+  {
+    "id": "D_087",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "drift",
+    "premise": "The boat was drifting.",
+    "hypothesis": "The boat drifted.",
+    "label": "True"
+  },
+  {
+    "id": "D_088",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "flow",
+    "premise": "The river was flowing.",
+    "hypothesis": "The river flowed.",
+    "label": "True"
+  },
+  {
+    "id": "D_089",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "rain",
+    "premise": "It was raining.",
+    "hypothesis": "It rained.",
+    "label": "True"
+  },
+  {
+    "id": "D_090",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "snow",
+    "premise": "It was snowing.",
+    "hypothesis": "It snowed.",
+    "label": "True"
+  },
+  {
+    "id": "D_091",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "blow",
+    "premise": "The wind was blowing.",
+    "hypothesis": "The wind blew.",
+    "label": "True"
+  },
+  {
+    "id": "D_092",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "graze",
+    "premise": "The cows were grazing.",
+    "hypothesis": "The cows grazed.",
+    "label": "True"
+  },
+  {
+    "id": "D_093",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "hunt",
+    "premise": "The predator was hunting.",
+    "hypothesis": "The predator hunted.",
+    "label": "True"
+  },
+  {
+    "id": "D_094",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "fish",
+    "premise": "We were fishing.",
+    "hypothesis": "We fished.",
+    "label": "True"
+  },
+  {
+    "id": "D_095",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "cook",
+    "premise": "He was cooking all day.",
+    "hypothesis": "He cooked all day.",
+    "label": "True"
+  },
+  {
+    "id": "D_096",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "smoke",
+    "premise": "The chimney was smoking.",
+    "hypothesis": "The chimney smoked.",
+    "label": "True"
+  },
+  {
+    "id": "D_097",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "sip",
+    "premise": "She was sipping tea.",
+    "hypothesis": "She sipped tea.",
+    "label": "True"
+  },
+  {
+    "id": "D_098",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "chew",
+    "premise": "The dog was chewing a bone.",
+    "hypothesis": "The dog chewed a bone.",
+    "label": "True"
+  },
+  {
+    "id": "D_099",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "rub",
+    "premise": "He was rubbing the stain.",
+    "hypothesis": "He rubbed the stain.",
+    "label": "True"
+  },
+  {
+    "id": "D_100",
+    "group": "D_Ambiguous_Activity",
+    "verb_class": "Activity",
+    "verb": "scratch",
+    "premise": "The cat was scratching the door.",
+    "hypothesis": "The cat scratched the door.",
+    "label": "True"
+  }
+]
