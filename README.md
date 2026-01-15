@@ -2,7 +2,7 @@
 
 This repository provides a streamlined framework for evaluating Large Language Models (LLMs) on the **Imperfective Paradox**, using a Natural Language Inference (NLI) task. It is designed to test logical deduction capabilities, specifically focusing on the **imperfective aspect** (determining if an action was completed) for two types of actions Activity and Accomplishment. We provide a diagnostic dataset, **ImperfectiveNLI**, and an inference code to conduct the experiment.
 
-Check our paper here: 
+Check our paper here: https://arxiv.org/abs/2601.09373
 
 ## ✨ Features
 
