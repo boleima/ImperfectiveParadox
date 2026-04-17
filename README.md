@@ -2,7 +2,7 @@
 
 This repository provides a streamlined framework for evaluating Large Language Models (LLMs) on the **Imperfective Paradox**, using a Natural Language Inference (NLI) task. It is designed to test logical deduction capabilities, specifically focusing on the **imperfective aspect** (determining if an action was completed) for two types of actions Activity and Accomplishment. We provide a diagnostic dataset, **ImperfectiveNLI**, and an inference code to conduct the experiment.
 
-Check our paper here: https://arxiv.org/abs/2601.09373
+Check our paper here: https://arxiv.org/abs/2601.09373 (ACL 2026)
 
 ## ✨ Features
 
@@ -36,4 +36,17 @@ python run_inference.py \
     --input_file "data/imperfectiveNLI.json" \
     --output_dir "results" \
     --prompt_type "zero-shot"
+```
+
+## 📚 Citation
+```bash
+@misc{ma2026imperfectiveparadoxlargelanguage,
+      title={The Imperfective Paradox in Large Language Models}, 
+      author={Bolei Ma and Yusuke Miyao},
+      year={2026},
+      eprint={2601.09373},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.09373}, 
+}
 ```
