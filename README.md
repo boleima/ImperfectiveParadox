@@ -11,6 +11,8 @@ Check our paper here: https://arxiv.org/abs/2601.09373 (ACL 2026)
 > In this context, the metric TBR_A (% of "True" predictions in A, indicating that models think the telic action to be completed; same as TBR_C and lower better, see Section 4.3) might be more appropriate for Group A analysis. I've attached here the updated table with TBR_A. It remains high in zero-shot (~50%) for A, supporting the claim of teleological bias, and decreases with more aggressive prompts, mirroring the pattern observed in Group C. This analysis should have been included in the main paper.
 > 
 > <img src="figures/tbr.png" alt="Newfigure" width="600">
+> 
+> Table content: TBR (teleological bias rate) for telic groups A and C; ACC for atelic groups B and D.
 
 
 ## ✨ Features
